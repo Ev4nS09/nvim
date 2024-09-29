@@ -7,6 +7,7 @@ vim.cmd("set autoindent")
 vim.cmd("set clipboard=unnamedplus")
 
 vim.opt.guicursor =""
+vim.opt.relativenumber=true
 
 vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
