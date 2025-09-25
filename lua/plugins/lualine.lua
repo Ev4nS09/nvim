@@ -13,7 +13,7 @@ return
               }
             },
             options = {
-                theme = 'dracula',
+                theme = 'jellybeans',
             }
         })
     end

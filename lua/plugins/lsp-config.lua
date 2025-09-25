@@ -22,6 +22,8 @@ return
             lspconfig.lua_ls.setup({capabilities = capabilities})
             lspconfig.clangd.setup({capabilities = capabilities})
             lspconfig.jdtls.setup({capabilities = capabilities})
+            lspconfig.ts_ls.setup({capabilities = capabilities})
+            lspconfig.pyright.setup({capabilities = capabilities})
             --lspconfig.harper_ls.setup({capabilities = capabilities})
             vim.keymap.set('n', 'K', vim.lsp.buf.hover, {})
             vim.keymap.set('n', 'gd', vim.lsp.buf.definition, {})
