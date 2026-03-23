@@ -9,11 +9,11 @@ return
                 {
                   'diagnostics',
                   symbols = {error = '󰞇 ', warn = '󱢾 ', info = '󰯂 ', hint = '󱘆 '},
-                }
+                },
               }
             },
             options = {
-                theme = 'jellybeans',
+                theme = 'palenight',
             }
         })
     end
