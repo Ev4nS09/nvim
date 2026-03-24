@@ -17,5 +17,4 @@ vim.opt.rtp:prepend(lazypath)
 require("vim-essentials")
 require("lazy").setup("plugins")
 
-vim.cmd("colorscheme base2tone_motel_dark")
-
+vim.cmd.colorscheme "catppuccin-macchiato"
